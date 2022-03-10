@@ -4,9 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Karma&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
     <title>Note</title>
 </head>
 <body>
-    
+    <section>
+        <div class="side-links">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Docs</a></li>
+            </ul>
+        </div>
+    </section>
+    <nav class="slide-bar">
+        <ul>
+            <p>My Notes</p>
+            <li><a href="#NoteOne">Note One</a></li>
+            <li><a href="#NoteTwo">Note Two</a></li>
+        </ul>
+    </nav>
+    <div class="text-note">
+        <label for="Note">+</label>
+        <textarea id="Inside-Note" name="Note" placeholder="your note here....."></textarea>
+        <div class="buttons">
+            <button class="save-note" type="button">
+                <i>save</i>
+            </button>
+            <button class="delete-note" type="button">
+                <i>delete</i>
+            </button>
+        </div>
+    </div>
+    <footer id="footer">
+        <p>Created by Kyle Evangelista. @KRXN</p>
+    </footer>
 </body>
 </html>
