@@ -1,0 +1,127 @@
+*{
+    font-family: 'Karma', serif;
+}
+
+body {
+    background-color: #9ccfd8;
+}
+
+.side-links {
+    top: 0px;
+    position: sticky;
+    text-decoration: none;
+}
+
+.side-links ul{
+    gap: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;   
+    text-decoration: none;
+}
+
+.side-links a{
+    color: #26233a;
+    text-decoration: none;
+}
+
+.side-links a:hover{
+    color: #908caa;
+    transition-duration: 0.5s;
+    text-decoration: none;
+}
+
+#footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    z-index: -1;
+}
+
+.create-button{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+}
+
+.create-note{
+    padding: 0px 50px;
+    transition-duration: 0.5s;
+}
+
+.create-note:hover{
+    background-color: #908caa;
+}
+
+.save-note, .delete-note{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 70px;
+}
+
+.save-note:hover, .delete-note:hover{
+    color: #908caa;
+}
+
+.text-note{
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    letter-spacing: 5px;
+}
+
+textarea {
+    line-height: 1.5;
+    width: 60%;
+    height: 350px;
+    font-size: 20px;
+    resize: none;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    gap: 5px;
+}
+
+.slide-bar ul{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    top: -20px;
+    left: -120px;
+    padding-left:20px;
+    background: #31748f;
+    transition-duration: 0.4s;
+    gap:1rem;
+}
+
+.slide-bar a{
+    text-decoration: none;
+    font-size: 15px;
+    color:#e0def4
+}
+
+
+.slide-bar a:hover{
+    font-size: 20px;
+    text-shadow: 0px 1px 16px;
+    color: #e0def4;
+    transition-duration: 0.4s;
+}
+
+
+.slide-bar ul:hover{
+    box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 1);
+    border-radius: 0;
+    left:0
+}
